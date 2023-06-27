@@ -20,7 +20,7 @@ So the maximum possible sum is 4.
 */
 
 
-int arrayPairSum(vector<int>& nums) {
+int func(vector<int>& nums) {
     sort(nums.begin(), nums.end());
     int sum = 0, n =nums.size();
     for(int i=0;i<n;i+=2){
