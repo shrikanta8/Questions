@@ -19,7 +19,7 @@ Explanation: The ranges are:
 
 
 
-vector<string> summaryRanges(vector<int>& nums) {
+vector<string> func(vector<int>& nums) {
     vector<string> ans;
     int i=0,n=nums.size(),st;
     while(i<n){
