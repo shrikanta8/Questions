@@ -8,7 +8,7 @@ Input: nums = [2,2,1]
 Output: 1
 */
 
-int singleNumber(vector<int>& nums) {
+int func(vector<int>& nums) {
     int ans= 0;
     for(auto ele:nums){
         ans ^= ele;
