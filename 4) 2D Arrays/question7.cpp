@@ -11,7 +11,7 @@ Count and return *the number of maximum integers in the matrix after performing 
 
 */
 
-int maxCount(int m, int n, vector<vector<int>>& ops) {
+int func(int m, int n, vector<vector<int>>& ops) {
        
     int x=m,y=n;    //if ops is empty then this will be the ans
     for(auto q:ops){
