@@ -13,7 +13,7 @@ Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,.
 
   */
 
-vector<int> shuffle(vector<int>& nums, int n) {
+vector<int> func(vector<int>& nums, int n) {
     vector<int> result(n << 1);
     int x = 0, y = n, index = 0;
     while(index < (n << 1)) {
