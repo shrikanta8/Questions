@@ -12,7 +12,7 @@ Output: [1,5]
 
 */
 
-vector <int> commonElements (int A[], int B[], int C[], int n1, int n2, int n3)
+vector <int> func (int A[], int B[], int C[], int n1, int n2, int n3)
 {
     vector<int> ans;
     int i=0,j=0,k=0;
