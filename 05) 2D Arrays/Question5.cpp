@@ -61,7 +61,7 @@ bool checkVal(vector<int>& arr2, int le, int ri, int end){
 }
 
 //code strts here
-int findTheDistanceValue(vector<int>& arr1, vector<int>& arr2, int d) {
+int func(vector<int>& arr1, vector<int>& arr2, int d) {
     sort(arr2.begin(),arr2.end());
     int ans=0,n=arr2.size();
     for(auto ele: arr1){
