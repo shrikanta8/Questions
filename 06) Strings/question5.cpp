@@ -18,7 +18,7 @@ We can rearrange nums1 to become [3,5,4,2]. The product sum of [3,5,4,2] and [4,
 */
 
 typedef long long ll;
-long long int minValue(int a[], int b[], int n)
+long long int func(int a[], int b[], int n)
 {
     ll ans=0;
     sort(a,a+n);
